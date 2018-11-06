@@ -1,10 +1,10 @@
 # Fitness-Gadgets
 Health Management
-Android example application to connect with Mi Band 2 and read and evaluate basic Data.
+Android application to connect with Mi Band  and read and evaluate basic Data.
 
 This basic android application explains the steps to
 
-    Turn on Bluetooth and search for Mi Band 2 devices in range
+    Turn on Bluetooth and search for Mi Band devices in range
     Connect to one of the listed devices
     Authenticate Mi Band 2
     Fetch and display Device information data
