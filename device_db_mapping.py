@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+device_db_mapping = {'MI Band': {'table': 'MI_BAND_ACTIVITY_SAMPLE',
+                                 'timestamp': 'TIMESTAMP', 
+                                 'heartrate': 'HEART_RATE', 
+                                 'activity': 'RAW_KIND',
+                                 'intensity': 'RAW_INTENSITY',
+                                 'steps': 'STEPS'},
+                     'HPlus': {'table': 'HPLUS_HEALTH_ACTIVITY_SAMPLE',
+                               'timestamp': 'TIMESTAMP',
+                               'heartrate': 'HEART_RATE', 
+                               'activity': 'RAW_KIND',
+                               'intensity': 'RAW_INTENSITY',
+                               'steps': 'STEPS',
+                               'calories': 'CALORIES',
+                               'distance': 'DISTANCE'},
+                     'NO.1 F1': {'table': 'NO1_F1_ACTIVITY_SAMPLE',
+                                 'timestamp': 'TIMESTAMP', 
+                                 'heartrate': 'HEART_RATE', 
+                                 'activity': 'RAW_KIND',
+                                 'intensity': 'RAW_INTENSITY',
+                                 'steps': 'STEPS'},
+                     'Pebble': {'table': 'NO1_F1_ACTIVITY_SAMPLE',
+                                'timestamp': 'TIMESTAMP', 
+                                'heartrate': 'HEART_RATE', 
+                                'intensity': 'RAW_INTENSITY',
+                                'steps': 'STEPS'}}
